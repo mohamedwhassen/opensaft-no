@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opensaft-no"
+version = "0.3.2"
+description = "Open-source SAF-T Financial v1.30 XML generator, NS 4102 mapper, and DDP/MVA calculator"
+authors = [{ name = "Mohamed Hassen" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.scripts]
+opensaft = "opensaft.cli:main"
